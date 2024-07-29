@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background: #ffee00;
+      background-image: url(wp4828652-doodle-drawing-wallpapers.jpg);
+      position: relative;
+      margin: 122px 0;
+    }
+
+    .laptop {
+      -webkit-transform-origin: 0 0;
+      transform-origin: 0 0;
+      -webkit-transform: scale(.6) translate(-50%);
+      transform: scale(.6) translate(-50%);
+      left: 34%;
+      top: 15%;
+      position: absolute;
+      width: 1366px;
+      height: 800px;
+      border-radius: 6px;
+      border-style: solid;
+      border-color: black;
+      border-width: 24px 24px 80px;
+      background-color: black;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .laptop:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 1600px;
+      height: 60px;
+      margin: 80px 0 0 -110px;
+      background: black;
+      border-radius: 6px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .laptop:before {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 250px;
+      height: 30px;
+      bottom: -110px;
+      left: 50%;
+      -webkit-transform: translate(-50%);
+      transform: translate(-50%);
+      background: #f1f1f1;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      z-index: 1;
+    }
+
+    .laptop .content {
+      width: 1366px;
+      height: 800px;
+      overflow: hidden;
+      border: none;
+    }
+
+    .smartphone {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      position: absolute;
+      width: 378px;
+      height: 480px;
+      left: 50%;
+      transform: translate(71%, 0%);
+      border: 16px black solid;
+      border-top-width: 60px;
+      border-bottom-width: 60px;
+      border-radius: 36px;
+    }
+
+    .smartphone:before {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 5px;
+      position: absolute;
+      top: -30px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #333;
+      border-radius: 10px;
+    }
+
+    .smartphone:after {
+      content: '';
+      display: block;
+      width: 35px;
+      height: 35px;
+      position: absolute;
+      left: 50%;
+      bottom: -65px;
+      transform: translate(-50%, -50%);
+      background: #333;
+      border-radius: 50%;
+    }
+
+    .smartphone .content {
+      width: 378px;
+      height: 480px;
+      background: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="laptop">
+    <div class="content">
+      <iframe src="https://mancoding.netlify.app/" style="width:100%;border:none;height:100%"></iframe>
+    </div>
+  </div>
+
+  <div class="smartphone">
+    <div class="content">
+      <iframe src="https://mancoding.netlify.app/" style="width:100%;border:none;height:100%"></iframe>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
